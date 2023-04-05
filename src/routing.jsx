@@ -1,4 +1,3 @@
-import './App.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 
 const pages = import.meta.glob("./pages/**/*.jsx", {eager: true});
@@ -31,8 +30,6 @@ const router = createBrowserRouter(
     }))
 );
 
-const App = () => {
+export default function Routing() {
     return <RouterProvider router={router}/>;
-};
-
-export default App
+}
