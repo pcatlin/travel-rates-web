@@ -14,6 +14,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+#root + div {
+  visibility: hidden;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
