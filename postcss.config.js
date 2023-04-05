@@ -1,3 +1,5 @@
+// noinspection JSUnusedGlobalSymbols
+
 import postcssPresetsEnv from 'postcss-preset-env';
 import postcssNesting from 'postcss-nesting';
 

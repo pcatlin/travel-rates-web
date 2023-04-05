@@ -3,4 +3,19 @@
     font-weight: 900;
     padding: 20px;
     text-align: left;
+
+    & h2{
+        margin-bottom: 0.5em;
+    }
+
+    & nav {
+        display: flex;
+        gap: 2em;
+        font-size: 1rem;
+    }
 }
+
+.navLink {
+    padding: 0.5em;
+}
+

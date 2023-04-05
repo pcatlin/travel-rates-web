@@ -6,7 +6,7 @@ export default function Privacy() {
     return (
         <div className="app">
             <Header/>
-            <main className='privacy'>
+            <main className='page privacy'>
                 <h1 className='title'>Privacy notice</h1>
 
                 <p><strong>Travel Rates</strong> respects your privacy and is committed to protecting your personal

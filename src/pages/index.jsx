@@ -1,9 +1,13 @@
-import '../global.css';
+import Header from "../components/header.jsx";
 
 export default function Home() {
     return (
         <div className="app">
-            <h1>Travel Rates Cheatsheet</h1>
+            <Header/>
+            <main className='page home'>
+                <p>Get the latest exchange rates for your next trip.</p>
+                <p>FREE</p>
+            </main>
         </div>
     );
 }
