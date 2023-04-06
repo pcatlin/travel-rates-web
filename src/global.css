@@ -1,8 +1,8 @@
 :root {
     --bg: #242424;
     --textColour: rgba(255, 255, 255, 0.87);
-    --linkColour: hsl(237, 100%, 70%);
-    --linkHoverColour: hsl(237, 100%, 80%);
+    --linkColour: hsla(237, 80%, 90%, 0.9);
+    --linkHoverColour: hsl(237, 100%, 90%);
 
     @media (prefers-color-scheme: light) {
         --bg: #fff;
@@ -11,11 +11,11 @@
         --linkHoverColour: hsl(237, 100%, 60%);
     }
 
+    background-color: var(--bg);
+    color: var(--textColour);
     color-scheme: light dark;
     min-height: 100vh;
     font-family: Helvetica, Arial, sans-serif;
-    background-color: var(--bg);
-    color: var(--textColour);
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
