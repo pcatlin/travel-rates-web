@@ -1,14 +1,22 @@
 :root {
-    --bg: #242424;
-    --textColour: rgba(255, 255, 255, 0.87);
-    --linkColour: hsla(237, 80%, 90%, 0.9);
-    --linkHoverColour: hsl(237, 100%, 90%);
+    --bg: #03045e;
+    --textColour: hsl(189, 75%, 90%);
+    --linkColour: hsl(18, 100%, 49%);
+    --linkHoverColour: hsl(18, 100%, 70%);
+    --headerBackground: hsl(201, 100%, 36%);
+    --inverseTextColour: hsl(189, 75%, 90%);
+    --inverseLinkColour: hsl(45, 100%, 64%);
+    --inverseLinkHoverColour: hsl(45, 100%, 90%);
 
     @media (prefers-color-scheme: light) {
-        --bg: #fff;
-        --textColour: rgba(0, 0, 0, 0.87);
-        --linkColour: hsl(237, 100%, 70%);
-        --linkHoverColour: hsl(237, 100%, 60%);
+        --bg: hsl(190, 77%, 88%);
+        --textColour: hsl(201, 100%, 20%);
+        --linkColour: hsl(18, 100%, 49%);
+        --linkHoverColour: hsl(18, 100%, 35%);
+        --headerBackground: hsl(239, 94%, 19%);
+        --inverseTextColour: hsl(190, 77%, 90%);
+        --inverseLinkColour: hsl(45, 100%, 64%);
+        --inverseLinkHoverColour: hsl(45, 100%, 90%);
     }
 
     background-color: var(--bg);
