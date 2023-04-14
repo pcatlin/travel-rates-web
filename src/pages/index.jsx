@@ -6,7 +6,7 @@ export default function Home() {
             <Header/>
             <main className='page home'>
                 <p>Get the latest exchange rates for your next trip.</p>
-                <p>FREE</p>
+                <p>FREE!</p>
             </main>
         </div>
     );
