@@ -1,4 +1,4 @@
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import {createHashRouter, RouterProvider} from "react-router-dom";
 
 const pages = import.meta.glob("./pages/**/*.jsx", {eager: true});
 
@@ -22,7 +22,7 @@ for (const path of Object.keys(pages)) {
     });
 }
 
-const router = createBrowserRouter(
+const router = createHashRouter(
     routes.map(({Element, ErrorBoundary, ...rest}) => ({
         ...rest,
         element: <Element/>,
