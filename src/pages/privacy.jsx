@@ -32,7 +32,7 @@ export default function Privacy() {
 
                 <h2>Your rights</h2>
                 <p>You have the right to access, modify, or delete your personal data at any time. Please contact us
-                    at <a href='mailto:help@travel-rates.com'>help@travel-rates.com</a> if you wish to exercise any of
+                    at <a href='mailto:app@travel-rates.com'>app@travel-rates.com</a> if you wish to exercise any of
                     these rights.</p>
 
                 <h2>Changes to this privacy notice</h2>
@@ -41,7 +41,7 @@ export default function Privacy() {
 
                 <h2>Contact us</h2>
                 <p>If you have any questions or concerns about our privacy notice, please contact us
-                    at <a href='mailto:help@travel-rates.com'>help@travel-rates.com</a>.</p>
+                    at <a href='mailto:app@travel-rates.com'>app@travel-rates.com</a>.</p>
             </main>
         </div>
     );
