@@ -1,23 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import ErrorBoundary from "./ErrorBoundary.jsx";
-import Routing from './routing.jsx';
 import './global.css';
 import Home from "./pages/index.jsx";
 import Privacy from "./pages/privacy.jsx";
 import Terms from "./pages/terms.jsx";
-import {HashRouter, Route, Routes} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <ErrorBoundary>
-            <HashRouter>
+            <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/privacy" element={<Privacy/>}/>
-                    <Route path="/profile/edit" element={<Terms/>}/>
+                    <Route path="/" component={Home}/>
+                    <Route path="/privacy" component={Privacy}/>
+                    <Route path="/terms" element={Terms}/>
                 </Routes>
-            </HashRouter>
+            </BrowserRouter>
         </ErrorBoundary>
     </React.StrictMode>
 )
