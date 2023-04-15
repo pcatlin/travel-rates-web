@@ -14,6 +14,8 @@ export default function Home() {
                     <StoreBadge size='small' store='apple'/>
                     <StoreBadge size='small' store='google'/>
                 </div>
+                <p className={styles.legal}>App Store is a trademark of Apple Inc.</p>
+                <p className={styles.legal}>Google Play and the Google Play logo are trademarks of Google LLC.</p>
             </main>
         </div>
     );

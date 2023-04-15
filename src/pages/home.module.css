@@ -1,6 +1,10 @@
 .storeBadges {
     display: flex;
     justify-content: center;
-    gap: 1em;
-    margin-top: 4rem;
+    gap: 2em;
+    margin-block: 4rem;
+}
+
+.legal {
+    font-size: 0.7rem;
 }

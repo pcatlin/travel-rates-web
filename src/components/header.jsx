@@ -13,7 +13,6 @@ export default function Header() {
             <nav>
                 <a className={styles.navLink} href='/'>Home</a>
                 <a className={styles.navLink} href='/privacy'>Privacy</a>
-                <a className={styles.navLink} href='/terms'>Terms</a>
             </nav>
         </header>
     );
