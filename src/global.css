@@ -23,7 +23,7 @@
     color: var(--textColour);
     color-scheme: light dark;
     min-height: 100vh;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;

@@ -1,6 +1,7 @@
 import styles from './header.module.css';
-// import logoUrl from '../assets/icon.png';
 import logoUrl from '../assets/logo-transparent.png';
+import "@fontsource/catamaran/600.css";
+
 
 export default function Header() {
     return (

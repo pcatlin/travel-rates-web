@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import ErrorBoundary from "./ErrorBoundary.jsx";
+import "@fontsource/noto-sans";
 import './global.css';
 import Home from "./pages/index.jsx";
 import Privacy from "./pages/privacy.jsx";
