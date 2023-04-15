@@ -12,9 +12,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <ErrorBoundary>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" component={Home}/>
-                    <Route path="/privacy" component={Privacy}/>
-                    <Route path="/terms" element={Terms}/>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/privacy" element={<Privacy/>}/>
+                    <Route path="/terms" element={<Terms/>}/>
                 </Routes>
             </BrowserRouter>
         </ErrorBoundary>
