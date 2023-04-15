@@ -1,0 +1,6 @@
+.storeBadges {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 4rem;
+}

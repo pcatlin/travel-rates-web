@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import ErrorBoundary from "./ErrorBoundary.jsx";
 import "@fontsource/noto-sans";
 import './global.css';
-import Home from "./pages/index.jsx";
+import Home from "./pages/home.jsx";
 import Privacy from "./pages/privacy.jsx";
 import Terms from "./pages/terms.jsx";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
