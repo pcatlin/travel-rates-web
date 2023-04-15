@@ -14,7 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="/privacy" element={<Privacy/>}/>
-                    <Route path="/privacy-notice" element={<Privacy/>}/>
                 </Routes>
             </BrowserRouter>
         </ErrorBoundary>
