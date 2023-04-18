@@ -5,7 +5,7 @@ import styles from './home.module.css';
 export default function Home() {
     return (
         <div className="app">
-            <Header/>
+            <Header h1={true}/>
             <main className='page home'>
                 <p>Get the latest exchange rates for your next trip.</p>
                 <p>FREE!</p>

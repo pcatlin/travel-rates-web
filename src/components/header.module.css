@@ -6,10 +6,16 @@
     background: var(--headerBackground);
     color: var(--inverseTextColour);
 
-    & h2{
+    & h1, h2{
         font-family: "Catamaran", sans-serif;
         font-weight: 600;
         font-size: 3rem;
+        line-height: 1.2;
+        text-align: center;
+
+        @media (max-width: 440px){
+            font-size: 2rem;
+        }
     }
 
     & nav {

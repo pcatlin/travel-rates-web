@@ -3,12 +3,12 @@ import logoUrl from '../assets/logo-transparent.png';
 import "@fontsource/catamaran/600.css";
 
 
-export default function Header() {
+export default function Header({h1}) {
     return (
         <header className={styles.header}>
             <div className={styles.logoContainer}>
                 <img src={logoUrl} alt='Travel Rates' className={styles.logo} />
-                <h2>Travel Rates Cheatsheet</h2>
+                {h1 ? <h1>Travel Rates Cheatsheet</h1> : <h2>Travel Rates Cheetsheet</h2>}
             </div>
             <nav>
                 <a className={styles.navLink} href='/'>Home</a>
