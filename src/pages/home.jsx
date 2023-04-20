@@ -1,6 +1,7 @@
 import Header from "../components/header.jsx";
 import StoreBadge from "../components/storeBadge.jsx"
 import styles from './home.module.css';
+import AdSense from "../components/adSense.jsx";
 
 export default function Home() {
     return (
@@ -9,6 +10,8 @@ export default function Home() {
             <main className='page home'>
                 <p>Get the latest exchange rates for your next trip.</p>
                 <p>FREE!</p>
+
+                <AdSense />
 
                 <div className={styles.storeBadges}>
                     <StoreBadge size='small' store='apple'/>
