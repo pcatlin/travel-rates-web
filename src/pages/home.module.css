@@ -5,6 +5,12 @@
     margin-block: 4rem;
 }
 
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
 .legal {
     font-size: 0.7rem;
 }
