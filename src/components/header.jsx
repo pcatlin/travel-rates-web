@@ -12,6 +12,7 @@ export default function Header({h1}) {
             </div>
             <nav>
                 <a className={styles.navLink} href='/'>Home</a>
+                <a className={styles.navLink} href='https://app.travel-rates.com'>Convert</a>
                 <a className={styles.navLink} href='/privacy'>Privacy</a>
             </nav>
         </header>
