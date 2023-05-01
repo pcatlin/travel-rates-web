@@ -3,8 +3,26 @@ import './privacy.css';
 import '@fontsource/noto-sans/500.css';
 import '@fontsource/noto-sans/600.css';
 import '@fontsource/noto-sans/700.css';
+import {useEffect} from "react";
+import {addCanonical} from "../utils/addTagsToHead.js";
 
 export default function Privacy() {
+
+    useEffect(() => {
+        const tags = [
+            {
+                tag: "link",
+                rel: "canonical",
+                href: "https://www.travel-rates.com/?/privacy",
+            },
+            {
+                tag: "meta",
+                property: "og:url",
+                content: "https://www.travel-rates.com/?/privacy"
+            },
+        ]
+        addCanonical(tags);
+    }, []);
 
     return (
         <div className="app">

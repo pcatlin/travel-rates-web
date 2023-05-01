@@ -8,7 +8,7 @@ export default function Header({h1}) {
         <header className={styles.header}>
             <div className={styles.logoContainer}>
                 <img src={logoUrl} alt='Travel Rates' className={styles.logo} />
-                {h1 ? <h1 className={styles.mainTitle}>Travel Rates Cheatsheet</h1> : <h2 className={styles.mainTitle}>Travel Rates Cheatsheet</h2>}
+                {h1 ? <h1 className={styles.mainTitle}>Travel Rates Cheat Sheet</h1> : <h2 className={styles.mainTitle}>Travel Rates Cheat Sheet</h2>}
             </div>
             <nav>
                 <a className={styles.navLink} href='/'>Home</a>

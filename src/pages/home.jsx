@@ -2,14 +2,20 @@ import Header from "../components/header.jsx";
 import StoreBadge from "../components/storeBadge.jsx"
 import styles from './home.module.css';
 import AdSense from "../components/adSense.jsx";
+import {useEffect} from "react";
+import {addCanonical} from "../utils/addTagsToHead.js";
 
 export default function Home() {
+    useEffect(() => {
+        addCanonical();
+    }, []);
+
     return (
         <div className="app">
             <Header h1={true}/>
             <main className='page home'>
                 <h2>Exchange rates</h2>
-                <p>Travel Rates Cheatsheet simplifies currency conversion for travellers. With daily exchange rates,
+                <p>Travel Rates cheat sheet simplifies currency conversion for travellers. With daily exchange rates,
                     users can easily convert their currency to the currency of their destination, ensuring they can
                     make informed decisions when managing their finances while on the go.</p>
 
@@ -20,7 +26,7 @@ export default function Home() {
                     remember the last rates downloaded for when you are not getting data in your travels.</p>
 
                 <h2>Essential</h2>
-                <p>Travel Rates Cheatsheet app is an essential tool for any traveller looking to
+                <p>Travel Rates cheat sheet app is an essential tool for any traveller looking to
                     manage their finances while on the go. Its easy-to-use interface, real-time and cached exchange
                     rates, easy lookup cheatsheet table make it a must-have app for any traveller.</p>
 
