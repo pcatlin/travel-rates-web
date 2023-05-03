@@ -33,8 +33,8 @@ export default function Home() {
                 <AdSense/>
 
                 <div className={styles.storeBadges}>
-                    <StoreBadge size='small' store='apple'/>
-                    <StoreBadge size='small' store='google'/>
+                    <StoreBadge size='medium' store='apple'/>
+                    <StoreBadge size='medium' store='google'/>
                 </div>
                 <p className={styles.legal}>App Store is a trademark of Apple Inc.</p>
                 <p className={styles.legal}>Google Play and the Google Play logo are trademarks of Google LLC.</p>

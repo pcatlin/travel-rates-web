@@ -13,6 +13,7 @@ export default function Header({h1}) {
             <nav>
                 <a className={styles.navLink} href='/'>Home</a>
                 <a className={styles.navLink} href='https://app.travel-rates.com'>Convert</a>
+                <a className={styles.navLink} href='/other-handy-apps'>Other Handy Apps</a>
                 <a className={styles.navLink} href='/privacy'>Privacy</a>
             </nav>
         </header>

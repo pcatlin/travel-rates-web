@@ -5,18 +5,18 @@
 
 .small{
     composes: badge;
-    height: 55px;
+    height: 42px;
     width: auto;
 }
 
 .medium{
     composes: badge;
-    height: 70px;
+    height: 55px;
     width: auto;
 }
 
 .large{
     composes: badge;
-    height: 100px;
+    height: 70px;
     width: auto;
 }
