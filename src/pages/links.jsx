@@ -1,8 +1,13 @@
-import Header from "../components/header.jsx";
-import './links.pcss';
 import {useEffect} from "react";
 import {addCanonical} from "../utils/addTagsToHead.js";
+import Header from "../components/header.jsx";
 import HandyLink from "../components/handyLink.jsx";
+import './links.pcss';
+import FlightRadarImg from "../assets/app-icons/flightradar24.webp";
+import GoogleMapsImg from "../assets/app-icons/googlemaps.webp";
+import GoogleTranslateImg from "../assets/app-icons/googletranslate.webp";
+import PhotoPillsImg from "../assets/app-icons/photopills.webp";
+import TripAdvisorImg from "../assets/app-icons/tripadvisor.webp";
 
 export default function Links() {
 
@@ -34,14 +39,10 @@ export default function Links() {
                         title: 'Google Maps',
                         subtitle: 'For finding where things are and how to get there',
                         name: 'Google Maps',
-                        image: 'https://www.gstatic.com/images/branding/product/2x/maps_2020q4_2x.png',
-                        appleUrl: 'http://apple.com',
-                        googleUrl: 'http://google.com',
+                        image: GoogleMapsImg,
+                        appleUrl: 'https://apps.apple.com/us/app/google-maps/id585027354',
+                        googleUrl: 'https://play.google.com/store/apps/details?id=com.google.android.apps.maps',
                     }}>
-                        <p>Are you ready to unlock the superpowers of navigation? Look no further than Google Maps!
-                            It's like having a wise and witty travel genie in your pocket. With its nifty features and
-                            magical accuracy, Google Maps will have you navigating like a boss in no time.</p>
-
                         <p>Lost in the maze of city streets? Fear not, for Google Maps provides turn-by-turn
                             directions that will make even the most complicated routes feel like a stroll through
                             Candyland. Plus, it's armed with real-time traffic updates, so you can dodge those
@@ -70,9 +71,9 @@ export default function Links() {
                         title: 'Trip Advisor',
                         subtitle: 'For finding things to do',
                         name: 'TripAdvisor',
-                        image: 'https://www.tripadvisor.com/img/cdsi/img2/branding/150_logo-11900-2.png',
-                        appleUrl: 'http://apple.com',
-                        googleUrl: 'http://google.com',
+                        image: TripAdvisorImg,
+                        appleUrl: 'https://apps.apple.com/gb/app/tripadvisor-plan-book-trips/id284876795',
+                        googleUrl: 'https://play.google.com/store/apps/details?id=com.tripadvisor.tripadvisor&hl=en&gl=US',
                     }}>
                         <p>Calling all travel enthusiasts! Prepare to be blown away by the travel wonderland that is
                             TripAdvisor! It's like having a secret stash of insider knowledge at your fingertips. With
@@ -99,14 +100,10 @@ export default function Links() {
                         title: 'Google Translate',
                         subtitle: 'For finding how to say things',
                         name: 'Google Translate',
-                        image: '',
-                        appleUrl: 'http://apple.com',
-                        googleUrl: 'http://google.com',
+                        image: GoogleTranslateImg,
+                        appleUrl: 'https://apps.apple.com/us/app/google-translate/id414706506',
+                        googleUrl: 'https://play.google.com/store/apps/details?id=com.google.android.apps.translate&hl=en&gl=US',
                     }}>
-                        <p>Calling all language adventurers! Prepare to have your mind blown by the magical powers of
-                            Google Translate! It's like having a pocket-sized language wizard, ready to break down
-                            barriers and unlock a world of communication possibilities.</p>
-
                         <p>Lost in translation? Fear not, for Google Translate is here to save the day! With a few
                             taps on your device, you can transform gibberish into a symphony of words that will
                             impress even the most critical language connoisseurs.</p>
@@ -137,9 +134,9 @@ export default function Links() {
                         title: 'PhotoPills',
                         subtitle: 'For finding the perfect photo opportunity',
                         name: 'PhotoPills',
-                        image: '',
-                        appleUrl: 'http://apple.com',
-                        googleUrl: 'http://google.com',
+                        image: PhotoPillsImg,
+                        appleUrl: 'https://apps.apple.com/us/app/photopills/id596026805',
+                        googleUrl: 'https://play.google.com/store/apps/details?id=com.photopills.android.photopills&hl=en&gl=US',
                     }}>
                         <p>Attention all photography enthusiasts! Get ready to enter a realm of photographic wizardry
                             with the extraordinary PhotoPills app! It's like having a magic camera companion that turns
@@ -178,9 +175,9 @@ export default function Links() {
                         title: 'Flight Radar 24',
                         subtitle: 'For finding out what that plane is',
                         name: 'FlightRadar24',
-                        image: '',
-                        appleUrl: 'http://apple.com',
-                        googleUrl: 'http://google.com',
+                        image: FlightRadarImg,
+                        appleUrl: 'https://apps.apple.com/us/app/flightradar24-flight-tracker/id382233851',
+                        googleUrl: 'https://play.google.com/store/apps/details?id=com.flightradar24free&hl=en&gl=US',
                     }}>
                         <p>Buckle up and get ready for takeoff as FlightRadar24 transforms your device into a window
                             to the skies. With real-time flight tracking, you'll be able to follow planes as they soar

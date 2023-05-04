@@ -8,7 +8,10 @@ export default function HandyLink({link, children}) {
             <header>
                 <img className='app-image'
                      src={link.image}
-                     alt={link.title}/>
+                     alt={link.title}
+                     width='240'
+                     height='240'
+                />
                 <h2 className='app-title'>{link.title}</h2>
                 <h3 className='app-subtitle'>{link.subtitle}</h3>
             </header>

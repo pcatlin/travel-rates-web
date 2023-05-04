@@ -1,6 +1,6 @@
 import Header from "../components/header.jsx";
 import StoreBadge from "../components/storeBadge.jsx"
-import styles from './home.module.css';
+import './home.pcss';
 import AdSense from "../components/adSense.jsx";
 import {useEffect} from "react";
 import {addCanonical} from "../utils/addTagsToHead.js";
@@ -32,12 +32,12 @@ export default function Home() {
 
                 <AdSense/>
 
-                <div className={styles.storeBadges}>
+                <div className='store-badges'>
                     <StoreBadge size='medium' store='apple'/>
                     <StoreBadge size='medium' store='google'/>
                 </div>
-                <p className={styles.legal}>App Store is a trademark of Apple Inc.</p>
-                <p className={styles.legal}>Google Play and the Google Play logo are trademarks of Google LLC.</p>
+                <p className='legal'>App Store is a trademark of Apple Inc.</p>
+                <p className='legal'>Google Play and the Google Play logo are trademarks of Google LLC.</p>
             </main>
         </div>
     );
