@@ -8,6 +8,7 @@ import GoogleMapsImg from "../assets/app-icons/googlemaps.webp";
 import GoogleTranslateImg from "../assets/app-icons/googletranslate.webp";
 import PhotoPillsImg from "../assets/app-icons/photopills.webp";
 import TripAdvisorImg from "../assets/app-icons/tripadvisor.webp";
+import TickItCardsImg from "../assets/app-icons/tickitcards.webp";
 
 export default function Links() {
 
@@ -204,6 +205,40 @@ export default function Links() {
                             trusted co-pilot. Experience the thrill of the skies, unlock the mysteries of flight,
                             and let your imagination take flight. With FlightRadar24, the world of aviation
                             becomes your playground, and every plane is a story waiting to be discovered!</p>
+                    </HandyLink>
+
+                    <HandyLink link={{
+                        title: 'TickIt Cards Reminders',
+                        subtitle: 'To never forget you have that gift card',
+                        name: 'TickIt Cards',
+                        image: TickItCardsImg,
+                        appleUrl: 'https://apps.apple.com/us/app/TickItCards/id6748018866',
+                        googleUrl: 'https://play.google.com/store/apps/details?id=com.paulcatlin.tickitcards',
+                    }}>
+                        <p>Last but not least, this one was also developed by me! Not strictly for travelling, but
+                            I'll add it here anyway. Check out
+                            the <a href='https://tickitreminders.com/gift-cards/'>TickItCards Reminders</a> site.
+                        </p>
+                        <p>TickIt Cards Reminders is your trusty sidekick in the battle against forgotten gift
+                            cards. With its superpower of organization, this app ensures that your gift cards are
+                            always at your fingertips, ready to be unleashed when the perfect shopping moment arises.
+                        </p>
+
+                        <p>No more digging through drawers or frantically searching your wallet for that elusive
+                            gift card. TickIt Cards Reminders keeps all your gift cards neatly organized in one
+                            convenient digital vault. Simply snap a photo of your gift card, add the details, and
+                            voila! You're ready to conquer the world of shopping with ease.</p>
+
+                        <p>But wait, there's more! TickIt Cards Reminders goes beyond mere organization. It
+                            transforms into your personal gift card assistant, sending you timely reminders before
+                            those precious cards expire. Say goodbye to wasted gift cards and hello to savvy
+                            shopping!</p>
+
+                        <p>So, fellow shoppers, embrace the power of TickIt Cards Reminders and never let a gift
+                            card go to waste again. With this app by your side, you'll become a gift card guru,
+                            effortlessly managing your collection and maximizing your shopping potential. Get ready
+                            to shop smart, save big, and unleash the full power of your gift cards with TickIt Cards
+                            Reminders!</p>
                     </HandyLink>
                 </div>
             </main>
