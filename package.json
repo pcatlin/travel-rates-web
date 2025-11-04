@@ -11,22 +11,22 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
-    "@fontsource/catamaran": "^4.5.10",
-    "@fontsource/noto-sans": "^4.5.11",
+    "@fontsource/catamaran": "^5.2.8",
+    "@fontsource/noto-sans": "^5.2.10",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.10.0"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.5"
   },
   "devDependencies": {
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^3.1.0",
-    "gh-pages": "^5.0.0",
-    "postcss": "^8.4.21",
-    "postcss-nesting": "^11.2.2",
-    "postcss-preset-env": "^8.3.0",
-    "sass": "^1.60.0",
-    "vite": "^4.2.0"
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "postcss-nesting": "^13.0.2",
+    "postcss-preset-env": "^10.4.0",
+    "sass": "^1.93.3",
+    "vite": "^7.1.12"
   }
 }
