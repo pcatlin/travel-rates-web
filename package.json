@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://www.travel-rates.com",
+  "homepage": "https://www.travel-rates.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
